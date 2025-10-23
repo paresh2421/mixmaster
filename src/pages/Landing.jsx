@@ -5,7 +5,7 @@ import CocktailList from "../components/CocktailList";
 const cocktailSearchUrl = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s='
 
 export const loader = async ()=>{
-  const searchTerm = 'a';
+  const searchTerm = 'g';
   const response = await axios.get(`${cocktailSearchUrl}${searchTerm}`)
   
   return {drinks: response.data.drinks, searchTerm}
