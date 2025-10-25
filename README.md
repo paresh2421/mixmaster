@@ -1,1 +1,1 @@
-Implementation of Mixmaster from John Smilga react course
+Implmentation of Mixmaster from John Smilga react course

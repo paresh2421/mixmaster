@@ -3,7 +3,7 @@ import Wrapper from "../assets/wrappers/CocktailCard";
 
 const CocktailCard = ({ name, img, info, glass, id }) => {
   const data = useOutletContext();
-  console.log(data);
+  // console.log(data);
   
   return (
     <Wrapper>
